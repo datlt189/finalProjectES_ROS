@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="rostopic" type="rostopic" name="echo_node" args="echo /test_topic" output="screen"/>
+</launch>
